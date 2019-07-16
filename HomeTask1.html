@@ -1,94 +1,87 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>HomeTask HTML</title>
-    <link rel="stylesheet" type="text/css" href="Task1.css" />
+    <link rel="stylesheet" type="text/css" href="HomeTask1.css">
 </head>
-
 <body>
-    <div class="fixed-header">
-        <p>
-            NEWSFEED<span>Yet another newsfeed</span>
-        </p>
-
-    </div>
-    <div class="spaceDiv"></div>
-    <div id="container">
-        <div class="row">
-            <div class="imageSection"> </div>
-            <div class="textSection">
-                <span class="title"> Title One</span><br />
-                <span class="postedDate">Posted on <span class="textBold">29 June, 2019</span> //Category: <span class="textBold">Category One</span> </span>
-                <br />
-                <p class="textPara">
+    <header>
+        <section class="header">
+            <p>
+                <h2> NEWSFEED </h2>
+                <h6>
+                    <i>Yet Another NewsFeed</i>
+                </h6>
+            </p>
+        </section>
+    </header>
+    <main>
+        <section class="section">
+            <div class="imageArea"></div>
+            <div class="contentDiv">
+                <p><b>Tittle One</b></p>
+                <span class="postedDate">Posted on <b>29 June, 2019</b> //Category: <b>Category One</b> </span>
+                <p class="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio
                     tortor, vulputate at suscipit ac, hendrerit vitae lectus. Duis convallis risus et nunc tincidunt,
                     non ornare sem sagittis. Ut ut mollis lorem. Vestibulum ultrices eros id mattis bibendum. Lorem
                     ipsum dolor sit amet, consectetur adipiscing eros id mattis bibendum ut mollis lorem.
                 </p>
-                <div class="button"> Continue Reading</div>
+                <p class="reading"><font color="white">Continue Reading</font></p>
             </div>
-            <div class="category">
-                <span> SELECT CATEGORY</span>
-                <br />
-                <select class="select">
-                    <option value="all">All</option>
-                    <option value="cat1">Category One</option>
-                    <option value="cat2">Category Two</option>
-                    <option value="cat3">Category Three</option>
-                </select>
-                <br />
-                <br />
-                <span> SUBSCRIBE</span>
-                <br />
-                <input type="text" placeholder="Email Address" />
-                <input type="submit" value="Subscribe">
+            <div class="selectCategory">
+                <div class="textHeader"><b>SELECT CATEGORY</b></div>
+                <div class="all">
+                    <select class="dropdownCategory">
+                        <option value="all">All</option>
+                        <option value="cat1">Category One</option>
+                        <option value="cat2">Category Two</option>
+                        <option value="cat3">Category Three</option>
+                    </select>
+                </div>
+                <div class="subscribe"><b>SUBSCRIBE</b></div>
+                <div class="textHeader">
+                    <input type="text" placeholder="Email Address">
+                    <button type="submit" class="subscribeBtn">Subscribe</button>
+                </div>
             </div>
-        </div>
-        <hr />
-        <div class="row">
-            <div class="imageSection"> </div>
-            <div class="textSection">
-                <span class="title"> Title Two</span><br />
-                <span class="postedDate">Posted on <span class="textBold">29 June, 2019</span> //Category: <span class="textBold">Category Two</span> </span>
-                <br />
-                <p class="textPara">
+        </section>
+        <section class="section lineBreak">
+            <div class="imageArea"></div>
+            <div class="contentDiv">
+                <p><b>Title Two</b></p>
+                <span class="postedDate">Posted on <b>29 June, 2019</b> //Category: <b>Category One</b> </span>
+                <p class="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio
                     tortor, vulputate at suscipit ac, hendrerit vitae lectus. Duis convallis risus et nunc tincidunt,
                     non ornare sem sagittis. Ut ut mollis lorem. Vestibulum ultrices eros id mattis bibendum. Lorem
                     ipsum dolor sit amet, consectetur adipiscing eros id mattis bibendum ut mollis lorem.
-
                 </p>
-                <div class="button"> Continue Reading</div>
+                <p class="reading"><font color="white">Continue Reading</font></p>
             </div>
-            <div class="column3">
-            </div>
-        </div>
-        <hr />
-        <div class="row">
-            <div class="imageSection"> </div>
-            <div class="textSection">
-                <span class="title"> Title Three</span><br />
-                <span class="postedDate">Posted on <span class="textBold">29 June, 2019</span> //Category: <span class="textBold">Category Three</span> </span>
-                <br />
-                <p class="textPara">
+        </section>
+        <section class="section lineBreak">
+            <div class="imageArea"></div>
+            <div class="contentDiv">
+                <p><b>Title Three</b></p>
+                <span class="postedDate">Posted on <b>29 June, 2019</b> //Category: <b>Category One</b> </span>
+                <p class="content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio
                     tortor, vulputate at suscipit ac, hendrerit vitae lectus. Duis convallis risus et nunc tincidunt,
                     non ornare sem sagittis. Ut ut mollis lorem. Vestibulum ultrices eros id mattis bibendum. Lorem
                     ipsum dolor sit amet, consectetur adipiscing eros id mattis bibendum ut mollis lorem.
-
                 </p>
-                <div class="button"> Continue Reading</div>
+                <p class="reading"><font color="white">Continue Reading</font></p>
             </div>
-            <div class="column3">
-            </div>
-        </div>
-        <hr />
-    </div>
-    <div class="fixed-footer">
-        <div class="footercontainer"> &copy; News Feed 2019</div>
-    </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <p>
+                <font color="white">
+                    <h6>&#169;NewsFeed 2019</h6>
+                </font>
+            </p>
+        </section>
+    </footer>
 </body>
 </html>
