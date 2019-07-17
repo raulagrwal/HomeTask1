@@ -1,0 +1,88 @@
+.header {
+    clear: left;
+    width: 150px;
+    padding-left: 10px;
+    font-family: Arial;
+    background-color: #022052;
+    width: 1100px;
+    height: 60px;
+}
+.section {
+    clear: left;
+    padding-top: 10px;
+}
+.header p {
+    padding-top: 1px;
+}
+.header h2, h6 {
+    display: inline;
+    color: white;
+}
+.lineBreak {
+    padding-top: 10px;
+    width: 1100px;
+    border-top: solid;
+    border-top-width: 1px;
+}
+.imageArea {
+    background-color: lightgray;
+    width: 150px !important;
+    height: 165px;
+    padding-top: 10px;
+}
+.contentDiv {
+    width: 700px !important;
+    padding-left: 15px;
+}
+.content {
+    font-size: 14px;
+}
+.category {
+    font-size: 11px;
+}
+.reading {
+    background-color: orangered;
+    width: 130px !important;
+    padding: 5px !important;
+}
+.section div {
+    float: left;
+    width: 10px;
+}
+.selectCategory {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.subscribe {
+    padding-top: 5px;
+    margin-top: 15px;
+}
+.all {
+    padding-top: 10px;
+}
+.dropdownCategory {
+    width: 220px !important;
+}
+.textHeader {
+    width: 450px !important;
+    padding-top: 5px;
+}
+.subscribeBtn {
+    background-color: darkblue;
+    color: white;
+    padding: 3px;
+}
+.postedDate {
+    font-size: 11px;
+}
+.footer {
+    background-color: #022052 !important;
+    padding-left: 10px;
+    font-family: Arial;
+    clear: left;
+    width: 150px;
+    width: 1100px;
+    height: 60px;
+    text-align: center;
+    padding-top: 5px;
+}
