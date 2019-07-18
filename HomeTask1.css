@@ -1,11 +1,8 @@
-.body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .header {
     padding-left: 10px;
     background-color: #273852;
     height: 60px;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 .main-wrapper {
     width: 960px;
@@ -98,4 +95,5 @@
     height: 60px;
     text-align: center;
     padding-top: 5px;
+    font-family: Arial;
 }
